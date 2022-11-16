@@ -1,0 +1,21 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Menu{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.Menu-Items{
+    color: var(--main-color);
+    border-bottom: 1px solid transparent;
+}
+
+.Menu-Items-Actif{
+    border-bottom: 1px solid var(--main-color);
+}

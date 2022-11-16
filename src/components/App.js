@@ -4,10 +4,12 @@ import Home from './home/Home';
 import Logement from './logement/Logement';
 import Page404 from './erreur/Page404';
 import Apropos from './aPropos/Apropos';
+import Header from './header/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/logements/:id" element={<Logement />}></Route>
