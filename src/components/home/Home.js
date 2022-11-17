@@ -1,9 +1,10 @@
-import Header from "../header/Header";
+import Gallerie from "./Gallerie";
 
 function Home() {
     return (
       <div className="Home">
         Home
+        <Gallerie />
       </div>
     );
   }

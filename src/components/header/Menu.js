@@ -1,8 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 
+
 function Menu() {
     const location = useLocation();
-    
+
     if(location.pathname === "/"){
         return (
             <nav className="Menu">
