@@ -11,12 +11,19 @@ function Menu() {
                 <Link to="/apropos" className="Menu-Items">A Propos</Link>
             </nav>
         );
+    } else if(location.pathname === "/apropos"){
+        return (
+            <nav className="Menu">
+                <Link to="/" className="Menu-Items">Accueil</Link>
+                <Link to="/apropos" className="Menu-Items Menu-Items-Actif">A Propos</Link>
+            </nav>
+        );
     }
 
     return (
         <nav className="Menu">
             <Link to="/" className="Menu-Items">Accueil</Link>
-            <Link to="/apropos" className="Menu-Items Menu-Items-Actif">A Propos</Link>
+            <Link to="/apropos" className="Menu-Items">A Propos</Link>
         </nav>
     );
     
