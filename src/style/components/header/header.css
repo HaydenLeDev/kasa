@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1024px;
     padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 1240px;
 }
 
 .Menu{
@@ -47,8 +48,10 @@
 }
 
 
-@media screen and (min-width: 1080px) {
+
+@media screen and (min-width: 1440px) {
     .Header{
-        padding: 30px 20px 30px 20px;
+        padding: 40px 100px 40px 100px;
+        width: 1240px;
     }
 }

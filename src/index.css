@@ -8,3 +8,10 @@
   --main-color : #FF6060;
   font-family: 'Montserrat', sans-serif;
 }
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
