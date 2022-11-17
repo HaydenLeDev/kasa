@@ -7,9 +7,9 @@ function Gallerie(props) {
 
     return (
       <div className="Gallerie-Item">
-        <img src={image} alt="Photo du logement" className='Gallerie-Item-background-image'></img>
+        <img src={image} alt="Presentation du Logement" className='Gallerie-Item-background-image'></img>
         <div className="Gallerie-Item-background"></div>
-        <h1 className="Gallerie-Item-title">{title}</h1>
+        <h2 className="Gallerie-Item-title">{title}</h2>
       </div>
     );
   }

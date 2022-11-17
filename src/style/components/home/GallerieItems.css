@@ -1,5 +1,6 @@
 .Gallerie-Item{
-    width: 335px;
+    display: flex;
+    width: calc(100%);
     height: 255px;
     border-radius: 10px;
 }
@@ -7,7 +8,7 @@
 .Gallerie-Item-background{
     position: absolute;
     z-index: 1;
-    width: 335px;
+    width: calc(100% - 40px);
     height: 255px;
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
@@ -15,7 +16,7 @@
 
 .Gallerie-Item-background-image{
     position: absolute;
-    width: 335px;
+    width: calc(100% - 40px);
     height: 255px;
     object-fit: cover;
     border-radius: 10px;
@@ -23,7 +24,7 @@
 
 .Gallerie-Item-title{
     position: absolute;
-    width: calc(335px - 40px);
+    width: calc(100% - 60px);
     height:calc(255px - 20px);
     padding: 0px 20px 0px 20px;
     display: flex;

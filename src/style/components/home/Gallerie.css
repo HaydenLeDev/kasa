@@ -2,5 +2,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+}
+
+.Titre{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 111px;
+    margin-bottom: 2px;
+}
+
+.Titre-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;    
+}
+
+.Titre-background{
+    position: absolute;
+    width: calc(100% - 40px);
+    background-color: black;
+    height: 111px;
+    opacity: 0.3;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.Titre-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    height: 111px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 500;
+    z-index: 2;
 }

@@ -15,8 +15,13 @@
     color: var(--main-color);
     border-bottom: 1px solid transparent;
     text-transform: uppercase;
+    font-size: 12px;
 }
 
 .Menu-Items-Actif{
     border-bottom: 1px solid var(--main-color);
+}
+
+.Logo-image{
+    width: 145px;
 }

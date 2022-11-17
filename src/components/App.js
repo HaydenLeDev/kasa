@@ -5,6 +5,7 @@ import Logement from './logement/Logement';
 import Page404 from './erreur/Page404';
 import Apropos from './aPropos/Apropos';
 import Header from './header/Header';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/apropos" element={<Apropos />}></Route>
         <Route path="/*" element={<Page404 />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 function Logo() {
     return (
       <div className="Logo">
-        <Link to="/" className="Menu-Items">
-        <img src={logoLink} alt="Logo kasa"></img>
+        <Link to="/">
+        <img src={logoLink} alt="Logo kasa" className="Logo-image"></img>
         </Link>
       </div>
     );
