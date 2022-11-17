@@ -6,8 +6,9 @@ import Titre from './Titre';
 function Gallerie() {
 
   return (
-    <div className="Gallerie">
+    <main className="Main-Home">
       <Titre />
+      <div className="Gallerie">
       {
         Data.map( data => {
           return(
@@ -15,8 +16,8 @@ function Gallerie() {
           )
         })
       }
-
-    </div>
+      </div>
+    </main>
   );
 }
 

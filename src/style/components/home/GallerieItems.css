@@ -31,6 +31,23 @@
     align-items: flex-end;
     font-weight: 500;
     font-size: 18px;
-    color: white;
     z-index: 1;
+}
+
+@media screen and (min-width: 720px) {
+    .Gallerie-Item{
+        width: 50%;
+    }
+
+    .Gallerie-Item-background{
+        width: calc(50% - 30px);
+    }
+
+    .Gallerie-Item-background-image{
+        width: calc(50% - 30px);
+    }
+
+    .Gallerie-Item-title{
+        width: calc(50% - 40px);
+    }
 }

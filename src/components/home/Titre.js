@@ -1,5 +1,5 @@
 import backgroundLink from '../../assets/backgroundHome.png'
-
+import '../../style/components/home/titre.css';
 function Titre() {
 
     return (

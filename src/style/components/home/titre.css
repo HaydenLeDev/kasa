@@ -1,0 +1,39 @@
+.Titre{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+    height: 111px;
+    margin-bottom: 22px;
+}
+
+.Titre-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;    
+}
+
+.Titre-background{
+    position: absolute;
+    width: calc(100% - 40px);
+    background-color: black;
+    height: 111px;
+    opacity: 0.3;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.Titre-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    height: 111px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+

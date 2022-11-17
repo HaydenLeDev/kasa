@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1024px;
     padding: 20px;
 }
 
 .Menu{
     display: flex;
-    gap: 10px;
-    
+    gap: 10px; 
 }
 
 .Menu-Items{
@@ -24,4 +24,31 @@
 
 .Logo-image{
     width: 145px;
+}
+
+@media screen and (min-width: 720px) {
+    .Header{
+        padding: 30px 20px 30px 20px;
+    }
+    
+
+    .Menu{
+        gap: 57px; 
+    }
+
+    .Menu-Items{
+        text-transform: none;
+        font-size: 24px;
+    }
+
+    .Logo-image{
+        width: 210px;
+    }
+}
+
+
+@media screen and (min-width: 1080px) {
+    .Header{
+        padding: 30px 20px 30px 20px;
+    }
 }
