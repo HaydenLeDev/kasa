@@ -12,7 +12,7 @@ function Gallerie() {
       {
         Data.map( data => {
           return(
-            <GallerieItems key={data.id} id={data.id} title={data.title} image={data.pictures[0]}/>
+            <GallerieItems key={data.id} id={data.id} title={data.title} cover={data.cover} />
           )
         })
       }
