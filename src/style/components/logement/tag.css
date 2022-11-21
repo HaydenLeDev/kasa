@@ -1,0 +1,20 @@
+.Tag-layout{
+    display: flex;
+    gap : 10px;
+    margin-left: 10px;
+}
+
+.Tag{
+    background: #FF6060;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-width: 74px;
+    padding: 0px 5px 0px 5px;
+    height: 18px;
+}

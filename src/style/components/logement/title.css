@@ -1,0 +1,16 @@
+.Title{
+    margin-left: 10px;
+    color: var(--main-color);
+}
+
+.Title-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+}
+
+.Title-location{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+}

@@ -1,5 +1,13 @@
+import "../../style/components/logement/logement.css"
 import { useParams } from 'react-router-dom'
 import Data from '../../data/Data.json'
+import Carousel from './Carousel'
+import Tag from "./Tag"
+import Title from "./Title"
+import DropDown from "../aPropos/DropDown"
+import Star from "./Star"
+import Profil from "./Profil"
+
 
 function Logement(props) {
 
@@ -12,29 +20,20 @@ function Logement(props) {
       }
       return null
     })
-    
-    const title = logement.title
-    const cover = logement.cover
+
     const pictures = logement.pictures
-    const description = logement.description
-    //const host = logement.host
-    const rating = logement.rating
-    const location = logement.location
-    const equipments = logement.equipments
-    const tags = logement.tags
-    
 
     return (
       <div className="Logement">
-        <p>Logement { id }</p>
-        <p>title = {title}</p>
-        <p>cover = {cover}</p>
-        <p>pictures = {pictures}</p>
-        <p>description = {description}</p>
-        <p>rating = {rating}</p>
-        <p>location = {location}</p>
-        <p>equipments = {equipments}</p>
-        <p>tags = {tags}</p>
+        <Carousel pictures={pictures} />
+        <Title title={logement.title} location={logement.location}/>
+        <Tag tags={logement.tags}/>
+        <div className="Logement-layout-mid">
+          <Star rating={logement.rating}/>
+          <Profil host={logement.host}/>
+        </div>
+        <DropDown nameClass="DropDownLarge" title="Description" description={logement.description}/>
+        <DropDown nameClass="DropDownLarge" title="Equipments" description={logement.equipments}/>
       </div>
     );
   }
