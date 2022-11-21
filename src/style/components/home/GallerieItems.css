@@ -3,6 +3,7 @@
     width: calc(100%);
     height: 255px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .Gallerie-Item-background{
