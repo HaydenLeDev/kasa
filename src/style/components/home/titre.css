@@ -56,7 +56,6 @@
     .Titre-text-layout{
         flex-direction: row;
         align-items: center;
-        justify-content: baseline;
         height: 111px;
         width: 1240px;
         gap: 20px;
@@ -81,7 +80,6 @@
     .Titre-text-layout{
         flex-direction: row;
         align-items: center;
-        justify-content: baseline;
         height: 111px;
         width: 1240px;
         gap: 20px;
