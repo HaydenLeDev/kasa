@@ -60,6 +60,9 @@
     line-height: 142.6%;
 }
 
+.DropDownLarge-List p{
+    
+}
 
 @media screen and (min-width: 720px) {
     .DropDownLarge-information{

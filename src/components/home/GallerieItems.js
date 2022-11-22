@@ -1,7 +1,7 @@
 import '../../style/components/home/GallerieItems.css';
 import { Link } from "react-router-dom"
 
-function Gallerie(props) {
+function GallerieItems(props) {
     const id = props.id
     const title = props.title
     const cover = props.cover
@@ -18,5 +18,5 @@ function Gallerie(props) {
     );
   }
   
-  export default Gallerie;
+  export default GallerieItems;
   

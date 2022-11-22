@@ -33,7 +33,7 @@ function Logement(props) {
           <Profil host={logement.host}/>
         </div>
         <DropDown nameClass="DropDownLarge" title="Description" description={logement.description}/>
-        <DropDown nameClass="DropDownLarge" title="Equipments" description={logement.equipments}/>
+        <DropDown nameClass="DropDownLarge DropDownLarge-List" title="Equipments" description={logement.equipments}/>
       </div>
     );
   }
