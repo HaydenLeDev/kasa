@@ -2,6 +2,12 @@ import "../../style/components/logement/star.css"
 import starImage from "../../assets/StarFull.svg"
 import starNotFullImage from "../../assets/StarNotFull.svg"
 
+/**
+ * Depending on its rating, we return a number of full and notfull stars.
+ * @param {*} props 
+ * @returns Returns the DOM of its rating
+ */
+
 function Star(props) {
     const rating = props.rating;
 

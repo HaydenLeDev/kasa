@@ -1,6 +1,12 @@
 import '../../style/components/home/GallerieItems.css';
 import { Link } from "react-router-dom"
 
+/**
+ * A dwelling links to the page assigned to it. Each menu has an image and a title.
+ * @param {*} props 
+ * @returns an item from the gallery
+ */
+
 function GallerieItems(props) {
     const id = props.id
     const title = props.title

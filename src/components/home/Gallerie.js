@@ -3,6 +3,11 @@ import GallerieItems from './GallerieItems'
 import '../../style/components/home/Gallerie.css';
 import Titre from './Titre';
 
+/**
+ * The gallery has a title and a housing collection.
+ * @returns the gallery
+ */
+
 function Gallerie() {
 
   return (

@@ -8,6 +8,11 @@ import DropDown from "../aPropos/DropDown"
 import Star from "./Star"
 import Profil from "./Profil"
 
+/**
+ * An accommodation has a carousel with the images of the accommodation as well as the various information.
+ * @param {*} props 
+ * @returns the content of the accommodation page
+ */
 
 function Logement(props) {
 
@@ -20,19 +25,12 @@ function Logement(props) {
     }
     return null
   })
-  console.log(logement)
-  
-  if (logement === undefined){
-    let url = "/error"
-    this.props.history.push(url)
-  }
 
   const pictures = logement.pictures
   const equipments = logement.equipments.map((equipment) =>
     <span key={equipment}>{equipment}</span>
   )
 
-  console.log(logement.description)
   return (
     <div className="Logement">
       <Carousel pictures={pictures} />

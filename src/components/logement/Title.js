@@ -1,5 +1,11 @@
 import "../../style/components/logement/title.css"
 
+/**
+ * Title of a dwelling
+ * @param {*} props 
+ * @returns Title of a dwelling
+ */
+
 function Title(props) {
 
     return (

@@ -1,5 +1,11 @@
 import backgroundLink from '../../assets/backgroundHome.png'
-import '../../style/components/home/titre.css';
+import '../../style/components/home/titre.css'
+
+/**
+ * Title with background
+ * @returns titlr
+ */
+
 function Titre() {
 
     return (

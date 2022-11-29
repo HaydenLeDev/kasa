@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import '../../style/components/component/dropDown.css';
 
+/**
+ * Function allowing to make a drop-down container. it has a title and a description. It can be open or closed.
+ * @param {*} propos 
+ * @returns the box open or closed
+ */
+
 function DropDown(propos) {
 
     const nameClass = propos.nameClass

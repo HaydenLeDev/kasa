@@ -1,5 +1,11 @@
 import "../../style/components/logement/tag.css"
 
+/**
+ * For each tag we make a tag
+ * @param {*} props 
+ * @returns the tag
+ */
+
 function Tag(props) {
     const tagTab = props.tags;
 

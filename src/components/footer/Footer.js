@@ -1,6 +1,11 @@
 import logoBlanc from '../../assets/LOGOblanc.png'
 import '../../style/components/footer/footer.css'
 
+/**
+ * Contains footer content
+ * @returns the footer of the page
+ */
+
 function Footer() {
     return (
         <div className="Footer">

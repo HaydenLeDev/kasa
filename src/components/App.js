@@ -7,6 +7,11 @@ import Apropos from './aPropos/Apropos';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 
+/**
+ * Do application routing. Always show Header and Footer.
+ * @returns the right element depending on the route
+ */
+
 function App() {
   return (
     <div className="App">

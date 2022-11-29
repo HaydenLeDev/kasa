@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import '../../style/components/erreur/page404.css'
 
+/**
+ * Contains 404 page
+ * @returns the content of the 404 error page
+ */
+
 function Page404() {
     return (
       <div className="Page404">

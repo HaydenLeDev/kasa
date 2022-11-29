@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import "../../style/components/logement/carousel.css"
 
+/**
+ * Image carousel, when it's at the end it comes back to the start and if it's at the start, it doesn't go to the end.
+ * @param {*} props 
+ * @returns the carousel
+ */
+
 function Carousel(props) {   
     const imagesTab = props.pictures; 
     const [index, nextImage] = useState(0)
     const isOverMax = index >= imagesTab.length-1
     const isLessMin = index <= 0
-    console.log(imagesTab.length)
-    console.log(index)
 
     return (
       <div className="Carousel">

@@ -1,5 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 
+/**
+ * Returns a menu depending on where the user is.
+ * @returns the menu
+ */
 
 function Menu() {
     const location = useLocation();

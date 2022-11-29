@@ -2,6 +2,11 @@ import DropDown from "./DropDown.js"
 import backgroundApropos from "../../assets/backgroundApropos.png"
 import '../../style/components/aPropos/aPropos.css';
 
+/**
+ * Contains the different elements of the "a propos" page
+ * @returns A propos page content
+ */
+
 function Apropos() {
     return (
       <div className="Apropos">
