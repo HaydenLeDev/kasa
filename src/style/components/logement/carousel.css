@@ -62,4 +62,15 @@
     .Carousel-next{
         right: 23px;
     }
+
+    .Carousel-index{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: white;
+        top: -30px
+    }
+    
 }
