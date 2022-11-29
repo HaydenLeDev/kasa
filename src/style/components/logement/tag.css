@@ -1,7 +1,6 @@
 .Tag-layout{
     display: flex;
     gap : 10px;
-    margin-left: 10px;
 }
 
 .Tag{
@@ -17,4 +16,15 @@
     min-width: 74px;
     padding: 0px 5px 0px 5px;
     height: 18px;
+}
+
+@media screen and (min-width: 720px) {
+
+    .Tag{
+        font-size: 14px;
+        min-width: 115px;
+        height: 25px;
+        border-radius: 10px;
+    }
+
 }

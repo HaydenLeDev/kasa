@@ -1,6 +1,6 @@
 import "../../style/components/logement/star.css"
-import starImage from "../../assets/starFullLittel.png"
-import starNotFullImage from "../../assets/starNotFullLittel.png"
+import starImage from "../../assets/StarFull.svg"
+import starNotFullImage from "../../assets/StarNotFull.svg"
 
 function Star(props) {
     const rating = props.rating;

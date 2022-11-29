@@ -1,18 +1,19 @@
 .Carousel{
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
     width: 100%;
+    height: 255px;
+    border-radius: 10px;
+    position: relative;
 }
+
 .Carousel-img{
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .Carousel-button{
-    position: relative;
+    position: absolute;
     background: transparent;
     border: none;
     width: 10px;
@@ -20,24 +21,45 @@
     border-bottom: solid 2px white;
     border-left: solid 2px white;
     rotate: 45deg;
+    top: 118px;
 }
 
+
 .Carousel-previous{
-    left: 20px;
+    left: 6px;
 }
 
 .Carousel-next{
-    right: 20px;
+    right: 6px;
     rotate: -135deg;
 }
 
 .Carousel-index{
     display: none;
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 142.6%;
+}
+
+@media screen and (min-width: 720px) {
+
+    .Carousel{
+        height: 415px;
+    }
+    .Carousel-img{
+        height: 415px;
+    }
+
+    .Carousel-button{
+        width: 56px;
+        height: 56px;
+        border-bottom: solid 8px white;
+        border-left: solid 8px white;
+        top: 150px;
+    }
+
+    .Carousel-previous{
+        left: 23px;
+    }
+    
+    .Carousel-next{
+        right: 23px;
+    }
 }

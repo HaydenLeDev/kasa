@@ -2,3 +2,11 @@
     display: flex;
     gap: 5px;
 }
+
+@media screen and (min-width: 720px) {
+
+    .Star img{
+        width: 30px;
+        height: 30px;
+    }
+}

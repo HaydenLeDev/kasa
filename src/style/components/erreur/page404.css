@@ -5,6 +5,7 @@
     align-items: center;
     gap: 182px;
     padding-bottom: 159px;
+    height:90vh;
 }
 
 .Page404-Text{
@@ -31,4 +32,31 @@
     font-size: 18px;
     line-height: 142.6%;
     color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+@media screen and (max-width: 720px) {
+    .Page404{
+        padding: 0px 50px 0px 50px;
+        gap: 133px;
+        justify-content: center;
+    }
+
+    .Page404-Text{
+        gap: 11px;
+    }
+    
+    .Page404-Text-Numero{
+        font-size: 96px;
+    }
+    
+    .Page404-Text-p{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .Page404-Link{
+        font-size: 18px;
+        color: var(--main-color);
+    }
 }

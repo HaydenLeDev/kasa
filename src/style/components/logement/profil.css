@@ -17,3 +17,19 @@
     width: 32px;
     height: 32px;
 }
+
+
+@media screen and (min-width: 720px) {
+
+    .Profil-name{
+        font-size: 18px;
+    }
+    
+    .Profil-photo{
+        border-radius: 100px;
+        width: 64px;
+        height: 64px;
+    }
+    
+
+}

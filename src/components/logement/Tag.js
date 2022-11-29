@@ -4,7 +4,7 @@ function Tag(props) {
     const tagTab = props.tags;
 
     const tags = tagTab.map(tag => {
-        return <div className="Tag">
+        return <div key={tag} className="Tag">
             <p>{tag}</p>
         </div>
     })

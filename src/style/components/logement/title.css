@@ -1,5 +1,4 @@
 .Title{
-    margin-left: 10px;
     color: var(--main-color);
 }
 
@@ -13,4 +12,14 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 142.6%;
+}
+
+@media screen and (min-width: 720px) {   
+    .Title-title{
+        font-size: 36px;
+    }
+    
+    .Title-location{
+        font-size: 18px;
+    }
 }

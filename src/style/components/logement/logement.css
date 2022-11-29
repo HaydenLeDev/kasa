@@ -1,11 +1,70 @@
 .Logement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 1240px;
+    width: calc(100% - 40px);
+    min-height: 90vh;
+    margin-bottom: 30px;
+}
+
+.Logement-layout-information{
+    width: 100%;
+}
+
+.Logement-layout-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Logement-layout-mid{
+    display: flex;
+    width: calc(100%);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Logement-layout-dropDown{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: calc(100%);
+}
+
+
+@media screen and (min-width: 720px) {
+    .Logement-layout-dropDown{
+        flex-direction: row;
+        gap: 20px;
+        width: calc(100%);
+    }
+    
+}   
+
+
+/*
+.Logement{
     padding: 0px 10px 0px 10px;
     width: calc(100%-20px);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     padding-bottom: 40px;
+    background-color: brown;
+}
+
+.Logement-layout-information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: blue;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .Logement-layout-mid{
@@ -15,3 +74,54 @@
     align-items: center;
     padding: 0px 10px 0px 10px;
 }
+
+.Logement-layout-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.Logement-layout-dropDown{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 720px) {   
+
+    .Logement{
+        max-width: 1440px;
+        padding: 0px 100px 0px 100px;
+        width: calc(100% - 200px);
+    }
+
+    .Logement-layout-mid{
+        flex-direction: column-reverse;
+        gap: 24px;
+        align-items: flex-end;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .Logement-layout-information{
+        flex-direction: row;
+    }
+
+    .Logement-layout-title{
+        gap: 20px;
+    }
+ 
+    .Logement-layout-dropDown{
+        width: calc(100% - 20px);
+        padding-left: 10px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-color: aqua;
+    }
+}
+
+*/
