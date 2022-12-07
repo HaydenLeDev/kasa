@@ -22,5 +22,5 @@ function Apropos() {
     );
   }
   
-  export default Apropos;
+export default Apropos;
   

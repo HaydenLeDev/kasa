@@ -12,15 +12,21 @@ function Carousel(props) {
     const [index, nextImage] = useState(0)
     const isOverMax = index >= imagesTab.length-1
     const isLessMin = index <= 0
+    const isOnePhoto = imagesTab.length === 1
 
-    return (
+    return isOnePhoto ?(
+      <div className="Carousel">
+        <img src={imagesTab[index]} alt="Présentation de l'appartement" className="Carousel-img"></img>
+        <p className="Carousel-index">{index + 1} / {imagesTab.length}</p>
+      </div>
+    ) : (
       <div className="Carousel">
         <button className="Carousel-button Carousel-previous" onClick={() => isLessMin ? nextImage(index + imagesTab.length-1) : nextImage(index - 1)}></button>
         <img src={imagesTab[index]} alt="Présentation de l'appartement" className="Carousel-img"></img>
         <button className="Carousel-button Carousel-next" onClick={() => isOverMax ? nextImage(index - imagesTab.length+1) : nextImage(index + 1)}></button>
         <p className="Carousel-index">{index + 1} / {imagesTab.length}</p>
       </div>
-    );
+    )
   }
   
   export default Carousel;

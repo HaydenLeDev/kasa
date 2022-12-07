@@ -26,7 +26,7 @@ function DropDown(propos) {
                 <p className="DropDownLarge-description-paragraphe">{description}</p>
             </div>
         </div>
-    ) : (
+    ) : ( 
         <div className={nameClass} onClick={() => setIsOpen(true)}>
             <div className="DropDownLarge-information">
                 <h2 className="DropDownLarge-Title">
